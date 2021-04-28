@@ -1,0 +1,5 @@
+{
+  "mongo": {
+    "connection_url": "mongodb://localhost:27017"
+  }
+}

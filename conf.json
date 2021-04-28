@@ -1,0 +1,23 @@
+{
+    "user_log": "user_log.json",
+    "white_listed": [],
+    "html_header": {
+        "XSS": "Secured",
+        "mimetype": "text/html",
+        "Content-Type": "text/html",
+        "server": "Confidential"
+    },
+    "webconfig": {
+        "host": "0.0.0.0",
+        "ServerHeaders": {
+            "CSRF": "Blocked",
+            "Server": "Private Server",
+            "XSS-protection": "True"
+        },
+        "debug": "False",
+        "port": 5000
+    },
+    "mongoconfig": {
+        "database_name": "item_kart_db"
+    }
+}
